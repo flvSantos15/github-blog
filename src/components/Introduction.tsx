@@ -9,7 +9,7 @@ import { FaUserFriends } from 'react-icons/fa'
 
 export function Introduction() {
   return (
-    <div className="flex gap-8 m-auto py-8 px-10 -mt-[80px] xl:w-[864px] xl:h-[212px] bg-base-profile shadow-[0px_2px_28px_rgba(0,0,0,0.2)] rounded-[10px]">
+    <div className="flex gap-8 m-auto mb-[72px] py-8 px-10 -mt-[80px] xl:h-[212px] bg-base-profile shadow-[0px_2px_28px_rgba(0,0,0,0.2)] rounded-[10px]">
       <div className="flex border border-solid border-[red] xl:w-[148px] xl:h-[148px] rounded-lg"></div>
       <div className="flex flex-col xl:w-[75%] gap-5">
         <div className="flex justify-between xl:w-full">
