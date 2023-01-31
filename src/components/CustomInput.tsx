@@ -5,7 +5,7 @@ export function CustomInput() {
     <input
       type="text"
       placeholder="Buscar conteúdo"
-      className="flex items-center py-3 px-4 gap-2 bg-base-input border border-solid border-base-border rounded-md font-['Nunito'] font-normal text-base leading-6 text-base-label focus:border-blue active:text-base-text"
+      className="flex items-center py-3 px-4 gap-2 bg-base-input border border-solid border-base-border rounded-md font-['Nunito'] font-normal text-base leading-6 text-base-label focus:outline-none focus:border-blue focus:text-base-text"
     />
   )
 }
