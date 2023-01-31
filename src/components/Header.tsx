@@ -6,7 +6,7 @@ import rightImg from '../assets/effect-right.png'
 
 export function Header() {
   return (
-    <div className="flex items-center justify-center md:justify-between xl:justify-between absolute w-full h-[120px] md:h-[276px] xl:h-[296px] bg-base-profile">
+    <div className="flex items-center justify-center md:justify-between xl:justify-between w-full h-[120px] md:h-[276px] xl:h-[296px] bg-base-profile">
       {/* <div className="flex justify-between absolute xl:max-w-[1440px] xl:h-[296px] bg-base-profile"> */}
       <img
         src={rightImg}
