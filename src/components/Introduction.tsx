@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 import { CustomLink } from './CustomLink'
 import { IntroductionSocial } from './IntroductionSocial'
@@ -6,8 +6,19 @@ import { IntroductionSocial } from './IntroductionSocial'
 import { AiFillGithub } from 'react-icons/ai'
 import { HiOfficeBuilding } from 'react-icons/hi'
 import { FaUserFriends } from 'react-icons/fa'
+import { api } from '../services/api'
 
 export function Introduction() {
+  const userName = 'flvSantos15'
+
+  const getUserInformation = async () => {
+    const { data } = await api.get(`/users/${userName}`)
+  }
+
+  useEffect(() => {
+    // getUserInformation()
+  }, [])
+
   return (
     <div className="flex gap-8 m-auto mb-[72px] py-8 px-10 -mt-[80px] xl:h-[212px] bg-base-profile shadow-[0px_2px_28px_rgba(0,0,0,0.2)] rounded-[10px]">
       <div className="flex border border-solid border-[red] xl:w-[148px] xl:h-[148px] rounded-lg"></div>

@@ -1,7 +1,22 @@
-import React from 'react'
+import { useEffect } from 'react'
+
+import { api } from '../services/api'
+
 import { CustomInput } from './CustomInput'
 
 export function CustomSearch() {
+  // q=${texto}%20repo:${username}/${repo}
+  const parameter =
+    'Boas%20práticas%20repo:rocketseat-education/reactjs-github-blog-challenge'
+
+  const handleSearchIssues = async () => {
+    const { data } = await api.get(`search/issues?q=${parameter}`)
+  }
+
+  useEffect(() => {
+    // handleSearchIssues()
+  }, [])
+
   return (
     <div className="flex flex-col gap-3">
       <div className="flex items-center justify-between">

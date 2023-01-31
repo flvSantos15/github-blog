@@ -1,6 +1,5 @@
 import { useState } from 'react'
 
-import { Header } from './components/Header'
 import { Introduction } from './components/Introduction'
 import { CustomSearch } from './components/CustomSearch'
 import { CardList } from './components/CardList'
