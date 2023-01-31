@@ -2,8 +2,8 @@ import React from 'react'
 
 export function CardItem() {
   return (
-    <div className="flex flex-col max-w-[416px] max-h-[260px] bg-base-post rounded-[10px] border-2 hover:border-2 hover:border-solid hover:border-base-label cursor-pointer p-7 gap-1">
-      <div className="flex gap-2">
+    <div className="flex flex-col max-w-[416px] max-h-[260px] bg-base-post rounded-[10px] border-2 border-transparent hover:border-2 hover:border-solid hover:border-base-label cursor-pointer p-7 gap-2">
+      <div className="flex justify-between w-full">
         <div className="w-[75%]">
           <h2 className="font-['Nunito'] font-bold text-xl leading-8 text-base-title">
             JavaScript data types and data structures
