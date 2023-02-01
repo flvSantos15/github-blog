@@ -6,7 +6,7 @@ import { IntroductionSocial } from './IntroductionSocial'
 import { AiFillGithub } from 'react-icons/ai'
 import { HiOfficeBuilding } from 'react-icons/hi'
 import { FaUserFriends } from 'react-icons/fa'
-import { api } from '../services/api'
+import { api } from '../lib/api'
 
 interface User {
   login: string
